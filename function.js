@@ -23,3 +23,15 @@ let greet = function() {
 function () {
   // this is a anonymous function
 }
+
+// Arrow function: they are also anonymous function
+// syntax:  (parameters here) => {} 
+let arrowFunc = () => {
+  // arrow function
+}
+
+// IIFE— Immediately Invoked function
+// This a type of functions that got executed as soon as the interpreter come across them 
+(function() {
+  
+})()
